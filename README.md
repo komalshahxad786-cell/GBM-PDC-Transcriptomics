@@ -8,7 +8,7 @@ This repository contains a complete, modular R pipeline designed to investigate 
 By integrating human glioblastoma cell culture (HGCC) RNA-seq matrices with continuous drug response profiles (IC50/AUC), this pipeline identifies actionable biomarkers and elucidates the mechanism of action (MoA) for two novel compounds (aliases: Compound A and Compound B). Findings derived from 2D HGCC screens were subsequently validated against 3D patient-derived organoid models (Crown Biosciences).
 
 ## 🛠️ Technical Stack & Dependencies
-* **Language:** R (v4.x)
+* **Language:** R (v4.5.1)
 * **Data Wrangling:** `dplyr`, `tidyr`, `purrr`, `readxl`, `stringr`
 * **Pre-processing:** `matrixStats` (Median Absolute Deviation filtration)
 * **Statistical Analysis:** Base R `cor.test` (Spearman Rank, BH-adjusted FDR)
@@ -60,6 +60,7 @@ To ensure the identified mechanisms were not 2D culture artifacts, the 2D HGCC g
 │   ├── Fig7b_2D_vs_3D_Quadrant_Validation.png
 │   ├── Fig8a_CompoundB_Sensitivity_GO_Dotplot_organoidValidation.png
 │   └── Fig8b_CompoundB_Resistance_GO_Dotplot_organoidValidation.png
+
 ├── scripts/
 │   ├── 01_Phase1_Subtype_Heterogeneity.R
 │   ├── 02_Phase1_Variance_Filtration.R
