@@ -11,7 +11,7 @@ This project integrates human glioblastoma cell culture (HGCC) gene expression d
 ## 🛠️ Computational Workflow
 * **Data Harmonization:** Matched patient-derived cell models across HGCC expression matrices and proprietary drug datasets.
 * **Phase 1 (Broad Screen):** Analyzed a broader panel of compounds to establish a global phenotypic baseline and identify macro-level sensitivity patterns.
-* **Phase 2 (Mechanism Deep Dive):** Focused specifically on Compound A and and Compound B, utilizing continuous Spearman rank correlations and GO/Reactome pathway enrichment to isolate the shared mechanism of action.
+* **Phase 2 (Mechanism Deep Dive):** Focused specifically on Compound A and Compound B, utilizing continuous Spearman rank correlations and GO/Reactome pathway enrichment to isolate the shared mechanism of action.
 * **Phase 3 (Validation):** Cross-referenced 2D cell line signatures against 3D patient-derived organoid models (Crown Biosciences).
 
 ## 🧬 Key Findings: The "Two-Hit" Mechanism of Action
