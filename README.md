@@ -7,7 +7,7 @@ This repository holds the analysis code from my MSc thesis in Molecular Biotechn
 
 The project asks a practical question: can a tumour's gene expression tell us in advance
 which tumours will respond to a peptide-drug conjugate (PDC)? Working only from existing
-transcriptomic and drug-response data — no new experiments — I correlated gene expression
+transcriptomic and drug-response data (no new experiments) I correlated gene expression
 with drug sensitivity across 48 patient-derived glioblastoma cell cultures (HGCC), took the
 signal to the pathway level, and then tested whether it held up in an independent set of 16
 patient-derived breast cancer organoids.
